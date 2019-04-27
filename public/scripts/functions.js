@@ -1,8 +1,8 @@
 function submitComment(commentControl) {
     var comments = document.getElementsByName(commentControl)[0].value;
-    var subscriptionKey = "30602e85dda848e89fa3494207f8e10e";
-    var url = "https://eastus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment";
-//updated
+    var subscriptionKey = "91a332f23d714a88a5afe353841b8367";
+    var url = "https://australiaeast.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment";
+
     var payload = '{ "documents": [ { "language": "es-ES", "id": "1", "text": "' + comments + '" }]}';
 
     $.ajax({
