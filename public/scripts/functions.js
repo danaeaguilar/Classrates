@@ -3,7 +3,7 @@ function submitComment(commentControl) {
     var subscriptionKey = "bb931b4b1a7640d2bf822b3a6ceacf1f";
     var url = "https://centralus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment";
 //updated
-    var payload = '{ "documents": [ { "language": "en-US", "id": "1", "text": "' + comments + '" }]}';
+    var payload = '{ "documents": [ { "language": "es-ES", "id": "1", "text": "' + comments + '" }]}';
 
     $.ajax({
         type: "POST",
